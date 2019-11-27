@@ -47,7 +47,7 @@ exports.updateProduct =  async(req, res) => {
     if (req.body.price != null) {
       res.product.price = req.body.price;
     }
-    if (req.body.price != null) {
+    if (req.body.imagePath != null) {
         res.product.imagePath = req.body.imagePath;
       }
     try {
